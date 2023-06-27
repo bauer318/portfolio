@@ -1,6 +1,15 @@
 import React from 'react';
+import ServiceItem from "./serviceItem";
 
 const Service = () => {
+    const backendServices = [
+        "Back-end logic",
+        "Application programming interface [APIs]",
+        "Database administration",
+        "Server architecture and Tests"
+    ];
+    const frontendServices = ["User interface [Web-app]", "User interface [Desktop-app]", "Tests"];
+
     return (
         <section className="services section" id="services">
             <h2 className="section__title">Services</h2>
@@ -28,22 +37,7 @@ const Service = () => {
                             <i className="uil uil-times services__modal-close"></i>
 
                             <ul className="services__modal-services grid">
-                                <li className="services__modal-service">
-                                    <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Back-end logic</p>
-                                </li>
-                                <li className="services__modal-service">
-                                    <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Application programming interface [APIs]</p>
-                                </li>
-                                <li className="services__modal-service">
-                                    <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Database administration</p>
-                                </li>
-                                <li className="services__modal-service">
-                                    <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Server architecture and Tests</p>
-                                </li>
+                                {backendServices.map((service, index) => <ServiceItem key={index} service={service}/>)}
                             </ul>
                         </div>
                     </div>
@@ -74,18 +68,10 @@ const Service = () => {
                             <i className="uil uil-times services__modal-close"></i>
 
                             <ul className="services__modal-services grid">
-                                <li className="services__modal-service">
-                                    <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p>User interface [Web-app]</p>
-                                </li>
-                                <li className="services__modal-service">
-                                    <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p>User interface [Desktop-app]</p>
-                                </li>
-                                <li className="services__modal-service">
-                                    <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Tests</p>
-                                </li>
+                                <ul className="services__modal-services grid">
+                                    {frontendServices.map((service, index) => <ServiceItem key={index}
+                                                                                           service={service}/>)}
+                                </ul>
                             </ul>
                         </div>
                     </div>

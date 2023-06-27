@@ -914,7 +914,8 @@ swiper-button-next,
 
 }
 .contact__cus{
-    padding-left: 35%;
+    display: flex;
+    justify-content: center;
 }
 
 
