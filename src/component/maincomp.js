@@ -21,12 +21,6 @@ const MainComp = () => {
                 <Qualification/>
                 {/*Service*/}
                 <Service/>
-                {/*Portfolio*/}
-                {/*<Portfolio/>*/}
-                {/*Project in mind*/}
-                {/*<Project/>*/}
-                {/*Testimonial*/}
-                {/*<Testimonial/>*/}
                 {/*Contact Me*/}
                 <Contact/>
             </main>
