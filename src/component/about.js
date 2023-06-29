@@ -1,6 +1,5 @@
 import React from 'react';
 import about_img from '../assets/img/image.png';
-import pdf from '../assets/pdf/cv.pdf';
 
 const About = () => {
     const aboutArray = ["About Me", "My introduction",
@@ -18,7 +17,7 @@ const About = () => {
                         {aboutArray[2]}
                     </p>
 
-                    <div className="about__buttons">
+                    {/*<div className="about__buttons">
                         <a
                             download=""
                             href={pdf}
@@ -26,7 +25,7 @@ const About = () => {
                         >
                             Download CV <i className="uil uil-download-alt button__icon"></i>
                         </a>
-                    </div>
+                    </div>*/}
                 </div>
             </div>
         </section>
