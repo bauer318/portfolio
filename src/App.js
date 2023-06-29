@@ -5,7 +5,6 @@ import {useEffect} from "react";
 import mainScript from "./mainScript";
 
 function App() {
-
     useEffect(() => {
         mainScript();
     },[]);
