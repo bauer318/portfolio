@@ -16,7 +16,6 @@ const About = () => {
                     <p className="about__description">
                         {aboutArray[2]}
                     </p>
-
                     {/*<div className="about__buttons">
                         <a
                             download=""
