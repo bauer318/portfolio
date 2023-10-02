@@ -1,5 +1,5 @@
 import React from 'react';
-import about_img from '../assets/img/image.png';
+import about_img from '../assets/img/image_diplome.jpg';
 
 const About = () => {
     const aboutArray = ["About Me", "My introduction",

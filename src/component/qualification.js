@@ -79,7 +79,7 @@ const Qualification = () => {
                         {/*<!--==================== QUALIFICATION 1====================-->*/}
                         <div className="qualification__data">
                             <QualificationItem name={"Director of the backend department"} place={"Bauzar-Digital - Russia"}
-                                               period={"2022-"}/>
+                                               period={"2021-"} link={"https://www.bauzar-digital.com"} seeMore={true}/>
 
                             <div>
                                 <span className="qualification__rounder"></span>
