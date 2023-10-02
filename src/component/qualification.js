@@ -34,7 +34,7 @@ const Qualification = () => {
                         <div className="qualification__data">
                             <QualificationItem name={"Electrical and computer engineering"}
                                                place={"DR Congo - University of Kinshasa"}
-                                               period={"2013-2018"}/>
+                                               period={"2013-2018"} />
 
                             <div>
                                 <span className="qualification__rounder"></span>
