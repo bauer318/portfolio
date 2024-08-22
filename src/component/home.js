@@ -1,5 +1,5 @@
 import React from 'react';
-import home_img from '../assets/img/img-bauer.png';
+import home_img from '../assets/img/image_bauer.jpg';
 import {CiTwitter} from "react-icons/ci";
 import {FiGithub, FiLinkedin} from "react-icons/fi";
 

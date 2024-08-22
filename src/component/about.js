@@ -1,6 +1,5 @@
 import React from 'react';
-import about_img from '../assets/img/image_diplome.jpg';
-import pdf from '../assets/pdf/cv.pdf';
+import about_img from '../assets/img/image_diplome_2.jpg';
 
 const About = () => {
     const aboutArray = ["About Me", "My introduction",
@@ -18,23 +17,20 @@ const About = () => {
                         {aboutArray[2]}
                     </p>
                     <div>
-                        <h4>Projects in development</h4>
-                        <a href="https://titanium-client.onrender.com/" target={"_blank"}>Titanium [From Madagascar]</a>
+                        <h4>Personals projects in development/production</h4>
                         <br/>
-                        <a href={"https://github.com/bauer318"} target={"_blank"}>Pri Transfert [Money transfert system
-                            using
-                            p2p]</a>
+                        <a href={"https://pri-trans.com"} target={"_blank"}>PriTrans [Money transfert system]</a>
                     </div>
                     <br/>
-                    <div className="about__buttons">
-                        <a
-                            download=""
-                            href={pdf}
-                            className="button buttons-flex"
-                        >
-                            Download CV <i className="uil uil-download-alt button__icon"></i>
-                        </a>
-                    </div>
+                    {/*<div className="about__buttons">*/}
+                    {/*    <a*/}
+                    {/*        download=""*/}
+                    {/*        href={pdf}*/}
+                    {/*        className="button buttons-flex"*/}
+                    {/*    >*/}
+                    {/*        Download CV <i className="uil uil-download-alt button__icon"></i>*/}
+                    {/*    </a>*/}
+                    {/*</div>*/}
                 </div>
             </div>
         </section>

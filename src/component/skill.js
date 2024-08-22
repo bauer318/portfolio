@@ -23,7 +23,7 @@ const Skill = () => {
                         </div>
 
                         <div className="skills__list grid">
-                            <SkillItem name={"Java"} percentage={"90"} className={"java"}/>
+                            <SkillItem name={"Java"} percentage={"95"} className={"java"}/>
 
                             <SkillItem name={"C#"} percentage={"85"} className={"csharp"}/>
 
@@ -35,7 +35,7 @@ const Skill = () => {
 
                             <SkillItem name={"Prolog"} percentage={"55"} className={"prolog"}/>
 
-                            <SkillItem name={"Kotlin"} percentage={"70"} className={"kotlin"}/>
+                            <SkillItem name={"Kotlin"} percentage={"65"} className={"kotlin"}/>
                         </div>
                     </div>
                     {/*<!--==================== SKILLS 2 ====================-->*/}
@@ -59,6 +59,26 @@ const Skill = () => {
                             <SkillItem name={"JavaScript"} percentage={"80"} className={"js"}/>
 
                             <SkillItem name={"React.js"} percentage={"80"} className={"react"}/>
+                        </div>
+                    </div>
+
+                    {/*<!--==================== SKILLS 3 ====================-->*/}
+                    <div className="skills__content skills__close">
+                        <div className="skills__header">
+                            <i className="uil uil-process skills__icon"></i>
+
+                            <div>
+                                <h1 className="skills__title">DevOps</h1>
+                                <span className="skills_subtitle">Basic knowledge</span>
+                            </div>
+
+                            <i className="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div className="skills__list grid">
+                            <SkillItem name={"Docker"} percentage={"60"} className={"docker"}/>
+
+                            <SkillItem name={"Kubernetes"} percentage={"35"} className={"k8s"}/>
                         </div>
                     </div>
                 </div>

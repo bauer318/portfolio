@@ -6,7 +6,7 @@ const SkillItem = ({name, percentage, className}) => {
         <div className="skills__data">
             <div className="skills__titles">
                 <h3 className="skills_name">{name}</h3>
-                <span className="skills__number">{percentage}%</span>
+                {/*<span className="skills__number">{percentage}%</span>*/}
             </div>
             <div className="skills__bar">
                 <span className={skillClassName}></span>

@@ -34,7 +34,7 @@ const Qualification = () => {
                         <div className="qualification__data">
                             <QualificationItem name={"Electrical and computer engineering"}
                                                place={"DR Congo - University of Kinshasa"}
-                                               period={"2013-2018"} />
+                                               period={"2013-2018"}/>
 
                             <div>
                                 <span className="qualification__rounder"></span>
@@ -57,7 +57,8 @@ const Qualification = () => {
 
                         {/*<!--==================== QUALIFICATION 3====================-->*/}
                         <div className="qualification__data">
-                            <QualificationItem name={"Software engineering [Master's degree]"} place={"Russia - Bauman Moscow State Technical University"}
+                            <QualificationItem name={"Software engineering [Master's degree]"}
+                                               place={"Russia - Bauman Moscow State Technical University"}
                                                period={"2023-2025"}/>
                             <div>
                                 <span className="qualification__rounder"></span>
@@ -78,8 +79,10 @@ const Qualification = () => {
                     <div className="qualification__content" data-content id="work">
                         {/*<!--==================== QUALIFICATION 1====================-->*/}
                         <div className="qualification__data">
-                            <QualificationItem name={"Director of the backend department"} place={"Bauzar-Digital - Russia"}
-                                               period={"2021-"} link={"https://www.bauzar-digital.com"} seeMore={true}/>
+                            <QualificationItem name={"Director of the backend department"}
+                                               place={"Bauzar-Digital - Russia, Ryazan  "}
+                                               period={"2021-2023"} link={"https://www.bauzar-digital.com"}
+                                               seeMore={true}/>
 
                             <div>
                                 <span className="qualification__rounder"></span>
@@ -88,6 +91,17 @@ const Qualification = () => {
                         </div>
 
                         {/*<!--==================== QUALIFICATION 2====================-->*/}
+                        <div className="qualification__data">
+                            <div></div>
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+                            <QualificationItem name={"Java Backend Developer"} place={"WebInnovations - Russia, Moscow"}
+                                               period={"11.2023 - "} link={"https://webinnovations.ru/"}
+                                               seeMore={true}/>
+                        </div>
+
                         <div className="qualification__data">
                             <div></div>
                             <div>
