@@ -3,7 +3,7 @@ import about_img from '../assets/img/image_diplome_2.jpg';
 
 const About = () => {
     const aboutArray = ["About Me", "My introduction",
-        "I have been a software engineer since June 2023. For the skills i have in-depth knowledge and experience in\n" +
+        "I have been a software engineer since June 2023. For the skills I have in-depth knowledge and experience in\n" +
         "                        programming languages such as Java and C#, RDBMS [Oracle DB, PostgreSQL] to mention only those..."]
     return (
         <section className="about section" id="about">
